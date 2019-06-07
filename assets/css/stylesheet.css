@@ -1,0 +1,54 @@
+Body {
+  Background-color: #aff7d8;
+}
+#FormContainer{
+  margin-top:100px;
+  padding-top:40px;
+  width:25%;
+  height:250px;
+  min-width:350px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 5px solid #3cd895;
+}
+#LoginForm{
+  width: 20%;
+  min-width:300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #3cd895
+
+}
+
+
+label {
+display: block;
+width: 260px;
+color: #696969;
+font-size: 16px;
+text-shadow: 0 0 1px silver;
+}
+
+#LoginInput, #password {
+display: block;
+margin: 0 auto;
+border: 1px solid silver;
+outline: 5px solid #ebebeb;
+font-size: 22px;
+}
+
+
+
+#LoginButton {
+
+margin-top: 20px;
+width: 40%;
+padding: 5px 10px;
+border: 1px solid #005f85;
+color: white;
+text-shadow: 0 0 1px black;
+background: #1c9360;
+position: relative;
+left: 30%;
+}
