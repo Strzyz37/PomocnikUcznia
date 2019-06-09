@@ -1,9 +1,25 @@
 <div id="FormContainer">
-<form action="logowanie.php" id="LoginForm" method="POST">
-<label for="username">Nazwa użytkownika:</label></br>
+<form  id="LoginForm" method="POST">
+<label for="username" id="LoginLabel">Nazwa użytkownika:</label></br>
 <input type="text" name="login" id="LoginInput" /></br>
 <label for="password">Hasło:</label></br>
 <input type="password" name="pass" id="password"  /></br>
-<input type="submit" id="LoginButton" value="Loguj" />
+<input type="submit" id="LoginButton" onclick="login()" value="Loguj" />
 </form>
+<button id="SignUp" onclick="SingUp()">Rejestracja</button>
 </div>
+
+<script>
+public function onclick()
+{
+  var login = $('#login').val();
+  var pass = $('#password').val();
+  jQuery.ajax({
+    type: "POST",
+    url: "<?=site_url('FirstPage/Login');?>",
+    dataType: 'json',
+    data: {login: login, pass: pass },
+
+    });
+}
+</script>

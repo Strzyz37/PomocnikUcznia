@@ -1,6 +1,8 @@
 Body {
-  Background-color: #aff7d8;
+ Background-color: #bbedf9;
 }
+/* Login Form*/
+
 #FormContainer{
   margin-top:100px;
   padding-top:40px;
@@ -9,7 +11,8 @@ Body {
   min-width:350px;
   margin-left:auto;
   margin-right:auto;
-  border: 5px solid #3cd895;
+  border: 5px solid #88bac6;
+  background-color: #bbedf9;
 }
 #LoginForm{
   width: 20%;
@@ -17,8 +20,12 @@ Body {
   height: 200px;
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid #3cd895
+  border: 5px solid #88bac6;
+  background: #bbedf9;
 
+}
+#LoginLabel{
+  margin-top: 15px;
 }
 
 
@@ -28,13 +35,14 @@ width: 260px;
 color: #696969;
 font-size: 16px;
 text-shadow: 0 0 1px silver;
+margin-left: auto;
 }
 
 #LoginInput, #password {
 display: block;
 margin: 0 auto;
 border: 1px solid silver;
-outline: 5px solid #ebebeb;
+outline: 5px solid #93e2bf;
 font-size: 22px;
 }
 
@@ -42,13 +50,47 @@ font-size: 22px;
 
 #LoginButton {
 
-margin-top: 20px;
+margin-top: 3px;
 width: 40%;
 padding: 5px 10px;
-border: 1px solid #005f85;
+border: 1px solid #27f79d;
 color: white;
 text-shadow: 0 0 1px black;
 background: #1c9360;
 position: relative;
 left: 30%;
+}
+/* Top Bar*/
+#TopBar{
+  background: #bbedf9;
+  height:96px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:30px;
+}
+#logo{
+  margin-top: auto;
+  margin-bottom: auto;
+  float:left;
+}
+#title{
+  text-align:center;
+  height: 87px;
+  border: solid 5px #528ae5;
+  font-size: 68px;
+  color: #696969;
+  padding-right: 10%;
+}
+#SignUp{
+  color: white;
+  text-shadow: 0 0 1px black;
+  background: #1c9360;
+  border: 1px solid #27f79d;
+  font-size:10px;
+  width:18%;
+  height:30px;
+  margin-top:28px;
+  margin-left:41%;
+  margin-right: 41%;
+
 }
