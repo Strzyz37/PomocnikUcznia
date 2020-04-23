@@ -14,9 +14,11 @@ class FirstPage extends CI_Controller
   public function index()
   	{
       $this->load->view('templates/header');
-      $this->load->view('pages//FirstPage/FirstPage');
       $this->load->view('pages/FirstPage/TopBar');
       $this->load->view('pages/FirstPage/LoginForm');
+      $this->load->view('pages/FirstPage/BackgroundChange.php');
+      $this->load->view('pages/firstPage/footer.php');
+      $this->load->view('pages/FirstPage/background.js');
   		$this->load->view('templates/footer');
 
 

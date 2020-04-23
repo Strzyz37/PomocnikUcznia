@@ -10,7 +10,7 @@
 </div>
 
 <script>
-public function onclick()
+function onclick()
 {
   var login = $('#login').val();
   var pass = $('#password').val();
